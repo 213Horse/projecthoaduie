@@ -1,0 +1,383 @@
+
+.container {
+    max-width: 1170px; 
+    margin: 0 auto; 
+}
+
+.about-us-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    color: #2e2828d1;
+    font-size: 64px;
+    width: 100%;
+}
+.about-us-hero img {
+    width: 100%;
+    max-height: 520px;
+    border-radius: 12px;
+}
+
+.about-us-hero{
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 50px;
+    padding: 60px 0;
+    color: #000000;
+}
+
+.about-us-hero-texts {
+    display: flex;
+    
+}
+
+.about-us-hero-texts h2 {
+    width: 100%;
+    font-size: 36px;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+    color: #2e2828d1;
+}
+
+.about-us-hero-texts p {
+    font-size: 18px;
+    margin: 0;
+    transition: opacity 0.3s linear, transform 0.3s linear;
+    color: #939393;
+}
+
+
+.statistics{
+    display: flex;
+    gap: 100px;
+    padding: 80px 0;
+    color: #000000;
+}
+
+.statistics-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+}
+
+
+.statistics-img img{
+    max-width: 570px;
+    border-radius: 12px;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+}
+
+.statistics-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.statistics-texts p{
+    font-size: 18px;
+    transition: opacity 0.3s linear, transform 0.3s linear;
+    color: #939393   ;
+}
+
+.stats{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    transition: opacity 0.45s linear, transform 0.45s linear;
+    color:   #2e2828d1;
+}
+
+.statistics-texts h2{
+    font-size: 36px;
+    color:   #2e2828d1;
+}
+
+.stat .stats-number{
+    font-size: 36px;
+    font-weight: bold;
+    color:   #2e2828d1;
+}
+
+.stats-types{
+    font-size: 16px;
+    margin-top: 5px;
+    color:   #2e2828d1;
+}
+
+.join-us-infos{
+    transition: opacity 0.2s linear, transform 0.2s linear;
+}
+
+.join-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    color: #000000;
+}
+
+.join-us-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 470px;
+}
+
+
+.join-us-img img{
+    max-width: 100%;
+    border-radius: 12px;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+}
+
+
+.join-us-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.join-us-texts h2{
+    font-size: 36px;
+    color: #2e2828d1;
+}
+
+.logo-circle-small {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2e2828d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-circle-small img{
+    height: 12px;
+    width: 12px;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+}
+
+.join-us-texts button{
+    width: 165px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    background: #006da6;
+    box-shadow: 0 0 10px #006da6;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+    transition: opacity 0.2s linear, transform 0.2s linear;
+}
+
+.join-us-texts a{
+    text-decoration: none;
+    color: white;
+}
+.join-us-texts button:hover{
+    box-shadow: 0 0 1px #006da6,
+                0 0 5px #006da6,
+                0 0 10px #006da6,
+                0 0 20px #006da6;
+}
+
+.about-us-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 80px 0;
+    color: #000000;
+}
+
+.about-info-img{
+    object-fit: cover;
+    height: 575px;
+    width: 100%;
+}
+
+
+.about-info-img img{
+   width: 100%;
+   border-radius: 12px;
+   height: 100%;
+}
+
+.about-info-texts{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.block-header{
+    font-size: 36px;
+    color: #2e2828d1;
+}
+
+.block-p{
+    font-size: 18px;
+    line-height: 28.8px;
+    transition: opacity 0.1s linear, transform 0.3s linear;
+    color: #939393;
+}
+
+.team-photos-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+.grid-photo{
+    position: relative;
+    width: 270px;
+    height: 330px;
+    overflow: hidden;
+    background-color: #4F46E5;
+}
+
+.grid-photo:nth-child(1){
+    transition: opacity 0.2s linear, transform 0.2s linear;
+}
+.grid-photo:nth-child(2){
+    transition: opacity 0.3s linear, transform 0.3s linear;
+}
+.grid-photo:nth-child(3){
+    transition: opacity 0.4s linear, transform 0.4s linear;
+}
+.grid-photo:nth-child(4){
+    transition: opacity 0.5s linear, transform 0.5s linear;
+}
+
+.grid-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.block-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 80px 0;
+}
+
+.block{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; 
+    }
+
+    
+    .statistics {
+        flex-direction: column;
+        gap: 60px;
+        padding: 40px 0;
+    }
+
+    .statistics-img img,
+    .join-us-img img,
+    .about-info-img img,
+    .grid-photo img {
+        border-radius: 12px;
+        width: 100%;
+        max-width: 570px; /* Maksimum genişlik ayarı */
+    }
+
+    .statistics-texts,
+    .join-us,
+    .about-us-hero-texts {
+        text-align: center;
+        gap: 20px;
+        padding: 40px 0;
+    }
+
+    .statistics-img img{
+        width: 100%;
+    }
+
+    .stats,
+    .team-photos-container {
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .join-us {
+        flex-direction: column;
+    }
+
+    .join-us-img{
+        width: 100%;
+    }
+
+    .join-us-texts button,
+    .bookcall,
+    .bookcalltext,
+    .col form input,
+    .button-36 {
+        width: 100%;
+    }
+
+    .bookcall {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bookcalltext {
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .logo-circle {
+        margin-bottom: 20px;
+    }
+
+    .about-us-info{
+        gap: 40px;
+        padding: 40px 0;
+    }
+
+    .about-us-hero img {
+        padding: 25px;
+    }
+
+    .about-us-hero-texts {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about-us-hero-texts h2 {
+        padding: 35px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .button-36 {
+        padding: 0 2.6rem;
+        width: 100%;
+    }
+}
