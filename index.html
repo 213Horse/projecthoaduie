@@ -38,7 +38,7 @@
             <button id="btn-tr">Türkçe</button>
             <button id="btn-en">English</button>
         </div>
-        <nav>
+        <nav id="navbar">
             <div class="logo">
                 <a href="index.html"><img class="img-logo-main" src="assets/VEECO1-removebg-preview.png" alt=""></a>
             </div>
@@ -356,6 +356,16 @@
         </footer>
 
     </div>
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('fixed-nav'); // Thêm lớp fixed-nav khi cuộn xuống hơn 300px
+            } else {
+                navbar.classList.remove('fixed-nav'); // Xóa lớp fixed-nav khi cuộn lên
+            }
+        });
+    </script>
     <script>
         function showTextEffect() {
             const textElement = document.getElementById('animation-u');

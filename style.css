@@ -129,6 +129,7 @@ figure:nth-child(3) {
 }
 
   nav {
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -766,6 +767,24 @@ p {
 }
 .updates-p{
     font-size: 20px;
+}
+.fixed-nav {
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    margin-top: 0; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.fixed-nav .logo {
+    width: 300px; /* Kích thước logo khi gắn cứng */
+}
+.fixed-nav .mainMenu{
+    margin-right: 20px; /* Khoảng cách giữa mainMenu và logo */
 }
 .bookcall {
     display: flex;
