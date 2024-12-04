@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arteis - Art of Technology</title>
+    <title>Veeco - Quạt cầm tay mini</title>
     <link rel="stylesheet" href="CSS/contactus.css">
     <link rel="icon" href="assets/VEECO-removebg-preview.png" type="image/x-icon">
     <link rel="icon" href="assets/VEECO-removebg-preview.png">
@@ -76,7 +76,7 @@
                     <div class="address" id="animation-l">
                         <h2 key="202">Arteis Bilişim Anonim Şirketi</h2>
                         <p key="203">İletişim Bilgilerimiz</p>
-                        <p class="adress-info">📞 <a href="tel:0336376037">0336376037</a></p>
+                        <p class="adress-info">📞 <a href="tel:0336376037">0336376037</a>(zalo)</p>
                         <p class="adress-info">📧 <a href="mailto:veeco.hoadue@gmail.com">veeco.hoadue@gmail.com</a></p>
                         <p class="adress-info">🏠 Công Ty TNHH Công Nghệ Sáng Tạo Hoa Duệ<br>
                             <br> 31 đường 15, Phường 11, Quận 6, Hồ Chí Minh 73116, Việt Nam<span class="turkey"></span>
@@ -174,7 +174,7 @@
             <footer class="footer">
                 <div class="row-footer">
                     <div class="col">
-                        <h3>Arteis</h3>
+                        <h3>Veeco</h3>
                         <a href="https://www.facebook.com/ArteisConsulting/"><i
                                 class="fa-brands fa-facebook fa-2xl"></i></a>
                         <a href="https://www.linkedin.com/company/arteisconsulting/"><i
@@ -182,7 +182,7 @@
                         <a href="https://www.instagram.com/arteisconsulting/"><i
                                 class="fa-brands fa-instagram fa-2xl logo1"></i></a>
                         <a href="https://x.com/arteisbilisim"><i class="fa-brands fa-twitter fa-2xl logo1"></i></a>
-                        <p class="col1p">2018 © All rights reserved by Arteis Consulting</p>
+                        <p class="col1p">2024 © All rights reserved by VEECO Consulting</p>
                     </div>
 
                     <div class="col">
@@ -228,6 +228,16 @@
         </div>
     </div>
 </body>
+<script>
+    window.addEventListener('scroll', function () {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('fixed-nav'); // Thêm lớp fixed-nav khi cuộn xuống hơn 300px
+        } else {
+            navbar.classList.remove('fixed-nav'); // Xóa lớp fixed-nav khi cuộn lên
+        }
+    });
+</script>
 <script src="JS/app.js"></script>
 <script>
     $(window).on('load', function () {
