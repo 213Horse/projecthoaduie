@@ -7,13 +7,13 @@
 }
 
 .contact {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     background-color: #ffffff;
-    margin: auto;
-    padding: 60px 0;
+    padding: 60px 60px;
     border-radius: 10px;
     gap: 30px;
 }
