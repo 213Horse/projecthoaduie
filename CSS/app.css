@@ -4515,6 +4515,20 @@ input::-ms-clear {
   display: inline-block;
   border-radius: 30px;
   }
+  .pd-detail__black{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  .pd-detail__blue{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 30px;
+  }
   .u-img-fluid {
     height: 500px;
     object-fit: cover;
@@ -4525,13 +4539,21 @@ input::-ms-clear {
 .pd-detail__stock {
   background-color: rgba(0, 148, 68, 0.14);
   color: #009444; }
-
+.pd-detail__blue{
+  background-color: rgb(0 223 255 / 14%);
+  color: #000000;
+}
 .pd-detail__left {
   background-color: rgb(199 199 199 / 14%);
-  color: #cdb0a6; }
+  color: #000000; }
 .pd-detail__pink{
   background-color: rgb(255 0 144 / 14%);
   color: #ff1493;
+}
+
+.pd-detail__black{
+  background-color: rgb(12 0 7 / 14%);
+  color: #000000;
 }
 .pd-detail__preview-desc {
   font-size: 13px;
