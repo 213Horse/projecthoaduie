@@ -1,7 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     function counter(id, start, end, duration) {
-        let obj = document.getElementById(id),
-            current = start,
+        let obj = document.getElementById(id);
+        if (!obj) {
+            console.error(`Element with id ${id} not found`);
+            return;
+        }
+        let current = start,
             range = end - start,
             increment = end > start ? 1 : -1,
             step = Math.abs(Math.floor(duration / range)),

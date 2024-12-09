@@ -25,6 +25,7 @@
 </head>
 
 <body class="config">
+
     <div class="loader">
         <figure>
             <div style="--i: 1"></div>
@@ -41,16 +42,42 @@
             <div style="--i: 12"></div>
         </figure>
     </div>
-    <div class="preloader is-active">
-        <div class="preloader__wrap">
 
-            <img class="preloader__img" src="images/preloader.png" alt="">
-        </div>
-    </div>
 
     <!--====== Main App ======-->
-    <div id="app">
+    <div class="container1" style="display: none;" id="app">
+        <div class="css-nav">
+            <nav id="navbar">
+                <div class="logo">
+                    <a href="index.html"><img class="img-logo-main" src="assets/VEECO1-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="openMenu"><i class="fa fa-bars" style="color: rgb(0, 0, 0);"></i></div>
+                <ul class="mainMenu">
+                    <li><a href="index.html" key="1">Trang chủ</a></li>
+                    <li><a href="./shop-grid-full.html" key="2">Sản phẩm</a></li>
+                    <li><a href="#" key="3">Thương mại</a></li>
+                    <li><a href="about.html" key="4">Về chúng tôi</a></li>
+                    <a href="contactus.html"> <button class="headerbutton" role="button" key="5">Liên hệ</button></a>
+                    <div class="closeMenu"><i class="fa fa-times fa-2xl" style="color: rgb(0, 0, 0);"></i></div>
+                    <span class="icons">
+                        <a href="#"><i class="fab fa-facebook fa-xl"></i></a>
+                        <a href="#"> <i class="fab fa-instagram fa-xl"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-xl"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin fa-2xl logo1"></i></a>
 
+                    </span>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <div class="preloader is-active">
+            <div class="preloader__wrap">
+
+                <img class="preloader__img" src="images/preloader.png" alt="">
+            </div>
+        </div>
         <!--====== Main Header ======-->
         <header class="header--style-1 header--box-shadow">
 
@@ -88,9 +115,9 @@
 
                                             <!-- <span class="js-shop-filter-target" data-side="#side-filter">Filters</span> -->
 
-                                            <span class="js-shop-grid-target is-active">Grid</span>
+                                            <span class="js-shop-grid-target is-active">Dạng ô</span>
 
-                                            <span class="js-shop-list-target">List</span>
+                                            <span class="js-shop-list-target">Dạng danh sách</span>
                                         </div>
                                         <form>
                                             <div class="tool-style__form-wrap">
@@ -121,29 +148,29 @@
                                                 <div class="product-m__thumb">
 
                                                     <a class="aspect aspect--bg-grey aspect--square u-d-block"
-                                                        href="product-detail.html">
+                                                        href="./product-detail-02.html">
 
                                                         <img class="aspect__img" src="assets/GF02.jpg" alt=""></a>
-                                                    <div class="product-m__quick-look">
+                                                    <!-- <div class="product-m__quick-look">
 
                                                         <a class="fas fa-search" data-modal="modal"
                                                             data-modal-id="#quick-look" data-tooltip="tooltip"
                                                             data-placement="top" title="Quick Look"></a>
-                                                    </div>
+                                                    </div> -->
                                                     <div class="product-m__add-cart">
 
                                                         <a class="btn--e-brand" data-modal="modal"
-                                                            data-modal-id="#add-to-cart">Add to Cart</a>
+                                                            href="./product-detail-02.html">Chi tiết</a>
                                                     </div>
                                                 </div>
                                                 <div class="product-m__content">
                                                     <div class="product-m__category">
 
-                                                        <a href="shop-side-version-2.html">Men Clothing</a>
+                                                        <a href="./shop-grid-full.html">Quạt</a>
                                                     </div>
                                                     <div class="product-m__name">
 
-                                                        <a href="product-detail.html">New Fashion B Nice Elegant</a>
+                                                        <a href="./product-detail-02.html">Quạt cầm tay mini GF02</a>
                                                     </div>
                                                     <div class="product-m__rating gl-rating-style"><i
                                                             class="fas fa-star"></i><i class="fas fa-star"></i><i
@@ -152,15 +179,18 @@
 
                                                         <span class="product-m__review">(23)</span>
                                                     </div>
-                                                    <div class="product-m__price">$125.00</div>
+                                                    <div class="product-m__price">338.000 VND</div>
                                                     <div class="product-m__hover">
                                                         <div class="product-m__preview-description">
 
-                                                            <span>Lorem Ipsum is simply dummy text of the printing and
-                                                                typesetting industry. Lorem Ipsum has been the
-                                                                industry's standard dummy text ever since the 1500s,
-                                                                when an unknown printer took a galley of type and
-                                                                scrambled it to make a type specimen book.</span>
+                                                            <span>Quạt cầm tay cao cấp của chúng tôi có 199 tốc độ gió
+                                                                tùy chỉnh, dễ dàng điều chỉnh bằng nút lên xuống. Sử
+                                                                dụng động cơ không chổi than turbo quay 16.000
+                                                                vòng/phút, quạt vận hành êm ái (dưới 25db), tạo luồng
+                                                                gió mạnh tối đa 9m/s và làm mát xa đến 5m. Luồng gió
+                                                                được lọc và làm mát, mang lại cảm giác dễ chịu như không
+                                                                khí điều hòa, giúp bạn hạ nhiệt nhanh chóng trong mùa
+                                                                hè.</span>
                                                         </div>
                                                         <div class="product-m__wishlist">
 
@@ -176,29 +206,29 @@
                                                 <div class="product-m__thumb">
 
                                                     <a class="aspect aspect--bg-grey aspect--square u-d-block"
-                                                        href="product-detail.html">
+                                                        href="./product-detail-56.html">
 
                                                         <img class="aspect__img" src="assets/k56-1.jpg" alt=""></a>
-                                                    <div class="product-m__quick-look">
+                                                    <!-- <div class="product-m__quick-look">
 
                                                         <a class="fas fa-search" data-modal="modal"
                                                             data-modal-id="#quick-look" data-tooltip="tooltip"
                                                             data-placement="top" title="Quick Look"></a>
-                                                    </div>
+                                                    </div> -->
                                                     <div class="product-m__add-cart">
 
                                                         <a class="btn--e-brand" data-modal="modal"
-                                                            data-modal-id="#add-to-cart">Add to Cart</a>
+                                                            href="./product-detail-56.html">Chi tiết</a>
                                                     </div>
                                                 </div>
                                                 <div class="product-m__content">
                                                     <div class="product-m__category">
 
-                                                        <a href="shop-side-version-2.html">Women Clothing</a>
+                                                        <a href="./shop-grid-full.html">Quạt</a>
                                                     </div>
                                                     <div class="product-m__name">
 
-                                                        <a href="product-detail.html">New Dress A Nice Elegant</a>
+                                                        <a href="./product-detail-56.html">Quạt cầm tay mini K56</a>
                                                     </div>
                                                     <div class="product-m__rating gl-rating-style"><i
                                                             class="fas fa-star"></i><i class="fas fa-star"></i><i
@@ -207,15 +237,21 @@
 
                                                         <span class="product-m__review">(23)</span>
                                                     </div>
-                                                    <div class="product-m__price">$125.00</div>
+                                                    <div class="product-m__price">188.000 VND</div>
                                                     <div class="product-m__hover">
                                                         <div class="product-m__preview-description">
 
-                                                            <span>Lorem Ipsum is simply dummy text of the printing and
-                                                                typesetting industry. Lorem Ipsum has been the
-                                                                industry's standard dummy text ever since the 1500s,
-                                                                when an unknown printer took a galley of type and
-                                                                scrambled it to make a type specimen book.</span>
+                                                            <span>Quạt cầm tay cao cấp sử dụng động cơ không chổi than
+                                                                Turbo 16.000 vòng/phút, vận hành êm ái (dưới 35db), tạo
+                                                                luồng gió mạnh 9m/s, làm mát xa đến 5m, mang lại cảm
+                                                                giác như không khí điều hòa.
+
+                                                                Quạt có 5 tốc độ gió tùy chỉnh, dễ dàng điều chỉnh bằng
+                                                                2 nút bấm tăng/giảm.
+
+                                                                Tính năng mặt sò làm lạnh giúp làm mát nhanh trong 5
+                                                                giây, có thể chạm trực tiếp lên cơ thể để làm dịu
+                                                                nhiệt.</span>
                                                         </div>
                                                         <div class="product-m__wishlist">
 
@@ -227,6 +263,65 @@
                                             </div>
                                         </div>
                                         <div class="col-lg-3 col-md-4 col-sm-6">
+                                            <div class="product-m">
+                                                <div class="product-m__thumb">
+
+                                                    <a class="aspect aspect--bg-grey aspect--square u-d-block"
+                                                        href="./product-detail-05.html">
+
+                                                        <img class="aspect__img" src="assets/GS05.jpg" alt=""></a>
+                                                    <!-- <div class="product-m__quick-look">
+
+                                                        <a class="fas fa-search" data-modal="modal"
+                                                            data-modal-id="#quick-look" data-tooltip="tooltip"
+                                                            data-placement="top" title="Quick Look"></a>
+                                                    </div> -->
+                                                    <div class="product-m__add-cart">
+
+                                                        <a class="btn--e-brand" data-modal="modal"
+                                                            href="./product-detail-05.html">Chi tiết</a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-m__content">
+                                                    <div class="product-m__category">
+
+                                                        <a href="./shop-grid-full.html">Quạt</a>
+                                                    </div>
+                                                    <div class="product-m__name">
+
+                                                        <a href="./product-detail-05.html">Quạt cầm tay mini GS5</a>
+                                                    </div>
+                                                    <div class="product-m__rating gl-rating-style"><i
+                                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                            class="fas fa-star-half-alt"></i><i
+                                                            class="far fa-star"></i><i class="far fa-star"></i>
+
+                                                        <span class="product-m__review">(23)</span>
+                                                    </div>
+                                                    <div class="product-m__price">108,000 VND</div>
+                                                    <div class="product-m__hover">
+                                                        <div class="product-m__preview-description">
+
+                                                            <span>Quạt cầm tay cao cấp với động cơ không chổi than Turbo
+                                                                quay 16.000 vòng/phút, vận hành êm ái (dưới 25db), tạo
+                                                                luồng gió mạnh 9m/s, làm mát xa đến 5m, mang lại cảm
+                                                                giác như không khí điều hòa.
+
+                                                                Quạt cung cấp 100 tốc độ gió tùy chỉnh, dễ dàng điều
+                                                                chỉnh bằng nút "+" hoặc "-" với khả năng tăng/giảm 20
+                                                                mức mỗi lần hoặc tùy chỉnh mượt mà khi nhấn giữ, đáp ứng
+                                                                mọi nhu cầu làm mát.</span>
+                                                        </div>
+                                                        <div class="product-m__wishlist">
+
+                                                            <a class="far fa-heart" href="#" data-tooltip="tooltip"
+                                                                data-placement="top" title="Add to Wishlist"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                                             <div class="product-m">
                                                 <div class="product-m__thumb">
 
@@ -280,62 +375,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 col-sm-6">
-                                            <div class="product-m">
-                                                <div class="product-m__thumb">
-
-                                                    <a class="aspect aspect--bg-grey aspect--square u-d-block"
-                                                        href="product-detail.html">
-
-                                                        <img class="aspect__img" src="assets/GS05.jpg" alt=""></a>
-                                                    <div class="product-m__quick-look">
-
-                                                        <a class="fas fa-search" data-modal="modal"
-                                                            data-modal-id="#quick-look" data-tooltip="tooltip"
-                                                            data-placement="top" title="Quick Look"></a>
-                                                    </div>
-                                                    <div class="product-m__add-cart">
-
-                                                        <a class="btn--e-brand" data-modal="modal"
-                                                            data-modal-id="#add-to-cart">Add to Cart</a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-m__content">
-                                                    <div class="product-m__category">
-
-                                                        <a href="shop-side-version-2.html">Women Clothing</a>
-                                                    </div>
-                                                    <div class="product-m__name">
-
-                                                        <a href="product-detail.html">New Dress B Nice Elegant</a>
-                                                    </div>
-                                                    <div class="product-m__rating gl-rating-style"><i
-                                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                                            class="fas fa-star-half-alt"></i><i
-                                                            class="far fa-star"></i><i class="far fa-star"></i>
-
-                                                        <span class="product-m__review">(23)</span>
-                                                    </div>
-                                                    <div class="product-m__price">$125.00</div>
-                                                    <div class="product-m__hover">
-                                                        <div class="product-m__preview-description">
-
-                                                            <span>Lorem Ipsum is simply dummy text of the printing and
-                                                                typesetting industry. Lorem Ipsum has been the
-                                                                industry's standard dummy text ever since the 1500s,
-                                                                when an unknown printer took a galley of type and
-                                                                scrambled it to make a type specimen book.</span>
-                                                        </div>
-                                                        <div class="product-m__wishlist">
-
-                                                            <a class="far fa-heart" href="#" data-tooltip="tooltip"
-                                                                data-placement="top" title="Add to Wishlist"></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="u-s-p-y-60">
@@ -344,9 +384,9 @@
                                     <ul class="shop-p__pagination">
                                         <li class="is-active">
 
-                                            <a href="shop-grid-full.html">1</a>
+                                            <a href="#">1</a>
                                         </li>
-                                        <li>
+                                        <!-- <li>
 
                                             <a href="shop-grid-full.html">2</a>
                                         </li>
@@ -361,7 +401,7 @@
                                         <li>
 
                                             <a class="fas fa-angle-right" href="shop-grid-full.html"></a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                     <!--====== End - Pagination ======-->
                                 </div>
@@ -383,18 +423,18 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="outer-footer__content u-s-m-b-40">
 
-                                <span class="outer-footer__content-title">Contact Us</span>
+                                <span class="outer-footer__content-title">Liên hệ</span>
                                 <div class="outer-footer__text-wrap"><i class="fas fa-home"></i>
 
-                                    <span>4247 Ashford Drive Virginia VA-20006 USA</span>
+                                    <span>Số 31 Đường số 15, Phường 11, Quận 6, Thành phố Hồ Chí Minh, Việt Nam</span>
                                 </div>
                                 <div class="outer-footer__text-wrap"><i class="fas fa-phone-volume"></i>
 
-                                    <span>(+0) 900 901 904</span>
+                                    <span>0336376037</span>
                                 </div>
                                 <div class="outer-footer__text-wrap"><i class="far fa-envelope"></i>
 
-                                    <span>contact@domain.com</span>
+                                    <span>veeco.hoadue@gmail.com</span>
                                 </div>
                                 <div class="outer-footer__social">
                                     <ul>
@@ -430,28 +470,24 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="outer-footer__content u-s-m-b-40">
 
-                                        <span class="outer-footer__content-title">Information</span>
+                                        <span class="outer-footer__content-title">Trang</span>
                                         <div class="outer-footer__list-wrap">
                                             <ul>
                                                 <li>
 
-                                                    <a href="cart.html">Cart</a>
+                                                    <a href="./index.html">Trang chủ</a>
                                                 </li>
                                                 <li>
 
-                                                    <a href="dashboard.html">Account</a>
+                                                    <a href="./index.html">Về chúng tôi</a>
                                                 </li>
                                                 <li>
 
-                                                    <a href="shop-side-version-2.html">Manufacturer</a>
+                                                    <a href="./shop-grid-full.html">Thương mại</a>
                                                 </li>
                                                 <li>
 
-                                                    <a href="dash-payment-option.html">Finance</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="shop-side-version-2.html">Shop</a>
+                                                    <a href="./contactus.html">Liên hệ</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -461,27 +497,23 @@
                                     <div class="outer-footer__content u-s-m-b-40">
                                         <div class="outer-footer__list-wrap">
 
-                                            <span class="outer-footer__content-title">Our Company</span>
+                                            <span class="outer-footer__content-title">Dịch vụ</span>
                                             <ul>
                                                 <li>
 
-                                                    <a href="about.html">About us</a>
+                                                    <a href="about.html">Sản phẩm</a>
                                                 </li>
                                                 <li>
 
-                                                    <a href="contact.html">Contact Us</a>
+                                                    <a href="contact.html">Sản phẩm nổi bật</a>
                                                 </li>
                                                 <li>
 
-                                                    <a href="index.html">Sitemap</a>
+                                                    <a href="index.html">Dịch vụ hỗ trợ</a>
                                                 </li>
                                                 <li>
 
-                                                    <a href="dash-my-order.html">Delivery</a>
-                                                </li>
-                                                <li>
-
-                                                    <a href="shop-side-version-2.html">Store</a>
+                                                    <a href="dash-my-order.html">Giải pháp của VEECO</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -492,7 +524,7 @@
                         <div class="col-lg-4 col-md-12">
                             <div class="outer-footer__content">
 
-                                <span class="outer-footer__content-title">Join our Newsletter</span>
+                                <span class="outer-footer__content-title">Tin tức</span>
                                 <form class="newsletter">
                                     <div class="u-s-m-b-15">
                                         <div class="radio-box newsletter__radio">
@@ -500,7 +532,7 @@
                                             <input type="radio" id="male" name="gender">
                                             <div class="radio-box__state radio-box__state--primary">
 
-                                                <label class="radio-box__label" for="male">Male</label>
+                                                <label class="radio-box__label" for="male">Nam</label>
                                             </div>
                                         </div>
                                         <div class="radio-box newsletter__radio">
@@ -508,7 +540,7 @@
                                             <input type="radio" id="female" name="gender">
                                             <div class="radio-box__state radio-box__state--primary">
 
-                                                <label class="radio-box__label" for="female">Female</label>
+                                                <label class="radio-box__label" for="female">Nữ</label>
                                             </div>
                                         </div>
                                     </div>
@@ -517,14 +549,15 @@
                                         <label for="newsletter"></label>
 
                                         <input class="input-text input-text--only-white" type="text" id="newsletter"
-                                            placeholder="Enter your Email">
+                                            placeholder="Nhập địa chỉ email">
 
                                         <button class="btn btn--e-brand newsletter__btn"
                                             type="submit">SUBSCRIBE</button>
                                     </div>
 
-                                    <span class="newsletter__text">Subscribe to the mailing list to receive updates on
-                                        promotions, new arrivals, discount and coupons.</span>
+                                    <span class="newsletter__text">Đăng ký vào danh sách gửi thư để nhận thông tin cập
+                                        nhật về chương trình khuyến mãi, sản phẩm mới, giảm giá và phiếu giảm
+                                        giá.</span>
                                 </form>
                             </div>
                         </div>
@@ -538,7 +571,7 @@
                             <div class="lower-footer__content">
                                 <div class="lower-footer__copyright">
 
-                                    <span>Copyright © 2018</span>
+                                    <span>Copyright © 2024</span>
 
                                     <a href="index.html">Reshop</a>
 
@@ -1966,7 +1999,18 @@
         <!--====== End - Modal Section ======-->
     </div>
     <!--====== End - Main App ======-->
-
+    <script src="JS/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            setTimeout(function () {
+                $(".loader").fadeOut(1000, function () {
+                    $(this).addClass('hidden');
+                });
+                $(".container1").fadeIn(1000);
+            }, 1000); // 1 giây chờ
+        });
+    </script>
 
     <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
     <script>
@@ -1979,16 +2023,22 @@
         ga('send', 'pageview')
     </script>
     <script>
-        $(window).on('load', function () {
-            setTimeout(function () {
-                $(".loader").addClass('hidden');
-                $(".loader").fadeOut(1000);
-                console.log('Loader hidden class added'); // Konsolda bu mesajı kontrol edin
-                $(".container").fadeIn(1000);
-            }, 1000); // 2 saniye bekler
-        });
+        function showTextEffect() {
+            const textElement = document.getElementById('animation-u');
+            textElement.classList.add('typing-effect');
 
+            setTimeout(() => {
+                textElement.classList.remove('typing-effect');
+                setTimeout(() => {
+                    showTextEffect();
+                }, 3000); // Hiển thị lại sau 3 giây
+            }, 4000); // Đợi 4 giây để xóa lớp 'typing-effect'
+        }
+
+        showTextEffect(); // Gọi hàm để bắt đầu hiệu ứng
     </script>
+
+
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
     <!--====== Vendor Js ======-->
@@ -2017,6 +2067,16 @@
             </div>
         </div>
     </noscript>
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('fixed-nav'); // Thêm lớp fixed-nav khi cuộn xuống hơn 300px
+            } else {
+                navbar.classList.remove('fixed-nav'); // Xóa lớp fixed-nav khi cuộn lên
+            }
+        });
+    </script>
 </body>
 
 </html>

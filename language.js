@@ -223,7 +223,7 @@ $(document).ready(function() {
             '42': '"Arteis fully met our business software needs. The technical support team is always helpful and finds quick solutions to problems. We are very satisfied with our collaboration."',
             '43': 'Sản phẩm nổi bật',
             '44': 'Quạt cầm tay Mini kèm làm lạnh K56',
-            '45': 'Quạt cầm tay Mini 100 mức độ FS02',
+            '45': 'Quạt cầm tay Mini 100 mức độ GS5',
             '46': 'Quạt cầm tay Mini 199 mức độ GF02',
             '47': 'Bạn cần giải pháp làm mát tiện lợi?',
             '48': 'Liên hệ với chúng tôi để trải nghiệm các sản phẩm quạt cầm tay mini VEECO chất lượng cao và giải quyết mọi thắc mắc.',
