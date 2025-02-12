@@ -228,7 +228,7 @@ figure:nth-child(3) {
  
   .bottom-right {
     position: fixed;
-    bottom: 20px; 
+    bottom: 73px; 
     right: 20px; 
     padding: 10px;
     z-index: 100;
