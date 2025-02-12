@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Veeco</title>
+    <!-- recaptcha v3 hoadue veeco -->
+    <script
+        src="https://www.google.com/recaptcha/enterprise.js?render=6Lcq_NQqAAAAAK0mzz09z4_HGtCfC1s-tRIaZc8m"></script>
 </head>
 
 <body>
@@ -34,10 +37,10 @@
     </div>
     <div class="container">
 
-        <div class="bottom-right">
+        <!-- <div class="bottom-right">
             <button id="btn-tr">English</button>
             <button id="btn-en">Tiếng việt</button>
-        </div>
+        </div> -->
         <nav id="navbar">
             <div class="logo">
                 <a href="index.html"><img class="img-logo-main" src="assets/VEECO1-removebg-preview.png" alt=""></a>
@@ -341,7 +344,14 @@
                         <p key="59">Arteis Çözümler</p>
                     </a>
                 </div>
-
+                <!-- button recaptcha -->
+                <div class="recaptcha-v3">
+                    <div class="css-recaptcha">
+                        <button class="g-recaptcha" data-sitekey="6Lcq_NQqAAAAAK0mzz09z4_HGtCfC1s-tRIaZc8m" data-callback='onSubmit'
+                            data-action='submit'>Submit</button>
+                    </div>
+                </div>
+                <!-- form nhận tin tức -->
                 <div class="col">
                     <h3 key="60">Haber Bülteni</h3>
                     <p key="61">Haber Bültenimize kayıt olmak için E-mail adresinizi yazabilirsiniz</p>
@@ -400,6 +410,12 @@
     <script src="app.js"></script>
     <script src="counter.js"></script>
     <script src="language.js"></script>
+    <script src="recapcha.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        } // Use `requestSubmit()` for extra features like browser input validation.
+    </script>
     <script>
         $(window).on('load', function () {
             setTimeout(function () {
