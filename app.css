@@ -14,7 +14,7 @@ custom-colors, box-mode, custom-header, custom-menu, custom-logo, featured-image
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-1.0 Base Styles
+1.0 Base Styles©
 2.0 Typography
 3.0 Pre-configured styles
 4.0 Layout Utility Styles
@@ -23,7 +23,7 @@ custom-colors, box-mode, custom-header, custom-menu, custom-logo, featured-image
   6.1 Primary Nav
   6.2 Secondary Nav
 7.0 Footer
-  7.1 Outer-Footer
+  7.1 Outer-Footer©∫
   7.3 Lower-Footer
 9.0 About-Page
 10.0 Contact-Page
@@ -4522,6 +4522,22 @@ input::-ms-clear {
   display: inline-block;
   border-radius: 30px;
   }
+
+  .pd-detail__popur{
+    font-size: 12px;
+  font-weight: 600;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 30px;
+  }
+  .pd-detail__coffe{
+    font-size: 12px;
+  font-weight: 600;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 30px;
+  }
+
   .pd-detail__black{
     font-size: 12px;
     font-weight: 600;
@@ -11371,6 +11387,15 @@ input::-ms-clear {
 .pd-detail__yellow{
   background-color: rgb(255 215 0 / 14%);
   color: #e1c165;
+}
+.pd-detail__popur{
+  background-color: rgb(147 0 215 / 14%);
+  color: #a400b7;
+}
+
+.pd-detail__coffe{
+  background-color: rgb(121 121 121 / 14%);
+  color: #957a6f;
 }
 
 .pd-detail__black{
