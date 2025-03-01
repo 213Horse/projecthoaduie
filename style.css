@@ -751,6 +751,7 @@ p {
     color: #464444;
 }
 .updates-image {
+    cursor: pointer;
     width: 300px;
     height: 263px;
     margin-bottom: 20px; 
